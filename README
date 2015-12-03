@@ -1,6 +1,6 @@
-How do you quickly determine whether a <a href="http://www.iab.com/guidelines/digital-video-ad-serving-template-vast-3-0/">VAST</a> feed is empty?  Parse the XML response and make a determination!
+How do you quickly determine whether a VAST feed is empty?  Parse the XML response, look for tell tale signs, then make a determination.
 
-Another super duper hacky way is to ping the VAST URL and check the response's length in characters.  If the character length is below a certain threshold, there is a good chance there is something wrong with the tag.  This is that super duper hack approach.
+Another super duper hacky way is to ping the VAST URL and check the response's length in characters.  If the character length is below a certain threshold, there is a good chance there is something wrong with the tag.  This is that super duper hacky approach.
 
 My last time writing PHP, too!  
 
